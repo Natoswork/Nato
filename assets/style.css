@@ -112,3 +112,7 @@ nav a:hover {
 nav a {
     transition: opacity .3s;
 }
+.img {
+  width: 180px;
+  margin-bottom: 30px;
+}
