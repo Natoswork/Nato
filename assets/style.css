@@ -53,6 +53,7 @@ p {
 .experience {
   padding-right: 100px;
   flex: 1;
+  color: #ededed;
 }
 .experience .flex {
     margin-bottom: 30px;
