@@ -116,3 +116,13 @@ nav a {
   width: 180px;
   margin-bottom: 30px;
 }
+strong {
+  font-weight: 700;
+}
+.link {
+  text-decoration: underline;
+  transition: opacity .3s;
+}
+.link:hover {
+  opacity: .6;
+}
