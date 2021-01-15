@@ -1,0 +1,113 @@
+body {
+  background: #232324;
+  color: #c9c9c9;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header {
+  padding: 30px;
+  color: #ffffff;
+}
+.logo {
+  font-size: 2em;
+}
+nav {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+nav li {
+  padding-left: 40px;
+}
+main {
+  /* width: 70%; */
+  /* margin: 0 auto; */
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+h1 {
+  color: #ededed;
+  font-size: 3.5em;
+  padding-top: 100px;
+  width: 70%;
+  padding-left: 100px;
+  margin: 0 auto 80px auto;
+  /* padding-left: 100px; */
+}
+p {
+  line-height: 20px;
+}
+.flex {
+  display: flex;
+}
+.relative {
+  position: relative;
+}
+.content-space-between {
+  justify-content: space-between;;
+}
+.experience {
+  padding-right: 100px;
+  flex: 1;
+}
+.experience .flex {
+    margin-bottom: 30px;
+}
+.date {
+  width: 110px;
+  flex: 0 0 110px;
+}
+.experience {
+    position: relative;
+}
+.relative h2 {
+    position: absolute;
+    left: 20px;
+    transform: rotate(-90deg);
+    color: #99999;
+    text-transform: uppercase;
+    transform-origin: top left;
+    top: 90px;
+}
+
+.experience strong,
+.skills strong {
+  margin-bottom: 10px;
+  display: block;
+}
+.skills {
+  width: 200px;
+}
+.skills li {
+    line-height: 24px;
+}
+.skills > div {
+    margin-bottom: 30px;
+}
+.active a {
+    text-decoration: underline;
+}
+main.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 102px);
+    text-align: center;
+    line-height: 26px;
+    flex-direction: column;
+}
+span.mail {
+    display: block;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+nav a:hover {
+    opacity: 0.8;
+}
+nav a {
+    transition: opacity .3s;
+}
