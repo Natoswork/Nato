@@ -96,7 +96,7 @@ main.contact {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 102px);
+    height: calc(100vh - 200px);
     text-align: center;
     line-height: 26px;
     flex-direction: column;
@@ -113,7 +113,7 @@ nav a {
     transition: opacity .3s;
 }
 .img {
-  width: 180px;
+  width: 280px;
   margin-bottom: 30px;
 }
 strong {
