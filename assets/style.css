@@ -114,10 +114,12 @@ span.mail {
     font-size: 2em;
     margin-bottom: 20px;
 }
-nav a:hover {
+nav a:hover ,
+.mail a:hover {
     opacity: 0.8;
 }
-nav a {
+nav a,
+.mail a {
     transition: opacity .3s;
 }
 .img {
