@@ -136,3 +136,14 @@ strong {
 .link:hover {
   opacity: .6;
 }
+.experience ul li:before {
+    content: "·";
+    margin-right: 6px;
+    text-indent: -20px;
+}
+.experience ul li {
+    text-indent: -11px;
+}
+.experience ul li {
+    margin-left: 11px;
+}
