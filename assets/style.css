@@ -56,13 +56,13 @@ p {
   padding-right: 100px;
   flex: 1;
   color: #ededed;
+  /* font-size: 1.15em;
+    line-height: 1.1em; */
+}
+/* .experience p {
   font-size: 1.15em;
     line-height: 1.1em;
-}
-.experience p {
-  font-size: 1.15em;
-    line-height: 1.1em;
-}
+} */
 .experience .flex {
     margin-bottom: 30px;
 }
