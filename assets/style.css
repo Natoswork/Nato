@@ -126,7 +126,8 @@ nav a,
     transition: opacity .3s;
 }
 .img {
-  width: 280px;
+ max-width: 320px;
+ padding: 0 30px;
   margin-bottom: 30px;
 }
 strong {
@@ -237,4 +238,13 @@ nav {
 .experience {
     padding-right: 0px;
 }
+}
+
+@media only screen and (max-width: 480px) {
+  span.mail {
+      display: block;
+      font-size: 1.4em;
+      margin-bottom: 10px;
+  }
+
 }
