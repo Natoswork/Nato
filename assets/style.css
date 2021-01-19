@@ -35,8 +35,8 @@ h1 {
   line-height: 1.15em;
   line-spacing: -0.2em;
   padding-top: 100px;
-  width: 70%;
-  padding-left: 100px;
+  width: 77%;
+  padding-left: 165px;
   margin: 0 auto 80px auto;
   /* padding-left: 100px; */
 }
@@ -70,7 +70,7 @@ p {
     margin-bottom: 30px;
 }
 .date {
-  width: 110px;
+  width: 165px;
   flex: 0 0 165px;
 }
 .experience {
@@ -100,7 +100,7 @@ p {
 .skills > div {
     margin-bottom: 30px;
 }
-.active a {
+li.active a {
     text-decoration: underline;
 }
 main.contact {
@@ -149,4 +149,92 @@ strong {
 }
 .experience ul li {
     margin-left: 11px;
+}
+@media only screen and (max-width: 1280px) {
+  h1 {
+  width: 85%;
+  }
+
+  .container {
+  width: 85%;
+  margin: 0 auto;
+}
+}
+@media only screen and (max-width: 1180px) {
+  h1, .container {
+  width: 92%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  h1, .container {
+  width: 100%;
+  padding: 0 30px;
+  }
+  .experience > .flex {
+    display: block;
+}
+.experience > .flex .date {
+    display: block;
+}
+h1 {
+  padding: 60px 30px 0 30px;
+}
+}
+@media only screen and (max-width: 840px) {
+  .navicon span {
+    display: block;
+    width: 26px;
+    height: 3px;
+    background: #ededed;
+    margin-top: 9px;
+}
+nav {
+    display: none;
+}
+.active .navicon span:nth-of-type(1) {
+   transform: rotate(45deg) translate( 8px, 8px );
+}
+.active .navicon span:nth-of-type(2) {
+   width: 0px;
+}
+.active .navicon span:nth-of-type(3) {
+   transform: rotate(-45deg) translate( 8px, -7px );
+}
+.navigation nav {
+    position: fixed;
+    /* display: flex; */
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    background-color: #232324;
+    width: 100%;
+    height: 100%;
+    padding: 60px;
+    z-index: 110;
+}
+.navigation nav ul {
+    display: block;
+    margin-top: 60px;
+}
+
+.navigation nav ul li {
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+.navicon {
+    position: relative;
+    z-index: 200;
+}
+}
+@media only screen and (max-width: 640px) {
+  h1 {
+    font-size: 2em;
+  }
+  .flex.container {
+    display: block;
+}
+
+.experience {
+    padding-right: 0px;
+}
 }
