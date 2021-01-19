@@ -200,7 +200,7 @@ nav {
    width: 0px;
 }
 .active .navicon span:nth-of-type(3) {
-   transform: rotate(-45deg) translate( 8px, -7px );
+   transform: rotate(-45deg) translate( 9px, -8px );
 }
 .navigation nav {
     position: fixed;
