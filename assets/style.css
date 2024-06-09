@@ -85,7 +85,9 @@ p {
     transform-origin: top left;
     top: 90px;
 }
-
+.experience strong {
+  text-transform: uppercase;
+}
 .experience strong,
 .skills strong {
   margin-bottom: 10px;
